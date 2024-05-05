@@ -63,3 +63,65 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+
+/*login/senha*/
+form > div.campo {
+    background-color: antiquewhite;
+    /*width: 100%;
+    display: block;*/
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+
+/*retirando o display label (login/senha) no mobile*/
+div.campo > label {
+    display: none;
+}
+
+/*Forma de pegar um item em formulario
+  estilizando o botão*/
+form > input[type=submit] {
+
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: rgba(56, 88, 56, 0.63);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+
+    background-color: rgba(112, 156, 112, 0.582);
+    cursor: pointer;
+}
+
+/*transformando o link(a) em um botão e estilizando*/
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 40px;
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.87);
+    border-radius: 7px;
+    border: 1px solid black;
+    padding-top: 5px;
+}
+
+form > a.botao:hover {
+    background-color: rgba(56, 88, 56, 0.63);
+}
+
+/*arrumar o icone para acompanahr o botão*/
+form > a.botao span {
+    font-size: 1em;
+}
