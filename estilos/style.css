@@ -17,6 +17,9 @@ body, html {
     background-color: antiquewhite;
     height: 100vh;
     width: 100vw;
+    background: url(../imagens/back.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 main { /*deixar relativo ao restante*/
