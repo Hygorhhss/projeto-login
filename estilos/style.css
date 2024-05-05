@@ -37,11 +37,14 @@ section#login { /*deixar o formulario absoluto*/
     width: 250px;
     height: 500px;
     border-radius: 20px;
+
+    transition: width 1s, height 1s;
+    transition-timing-function: ease; /*suavizar transição*/
 }
 
 section#login > div#imagem { /*inserir imagem a partir do CSS*/
     display: block;
-    background: #5f2c82 url(../imagens/montanha.jpg) no-repeat;
+    background: antiquewhite url(../imagens/montanha.jpg) no-repeat;
     background-size: cover;
     background-position: bottom;
     height: 200px;
