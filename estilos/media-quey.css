@@ -15,7 +15,7 @@ tablet:  de 768px até 1024px
 desktop: 1024px
 */
 
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 450px) and (max-width: 1024px) {
 
     body { /*gradiente na versão tablete*/
         background: url(../imagens/caminho.jpg);
